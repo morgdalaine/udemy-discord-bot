@@ -10,7 +10,7 @@ export const AddCommand: SlashCommand = {
       option.setName('number2').setDescription('Number 2').setRequired(true)
     )
     .setName('add')
-    .setDescription('returns sum  of two numbers'),
+    .setDescription('returns sum of two numbers'),
   async run(interaction) {
     const { options } = interaction;
     const number1 = options.getNumber('number1', true);
