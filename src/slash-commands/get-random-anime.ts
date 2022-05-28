@@ -1,4 +1,4 @@
-import { hyperlink, SlashCommandBuilder, userMention } from '@discordjs/builders';
+import { hyperlink, SlashCommandBuilder } from '@discordjs/builders';
 import axios from 'axios';
 import { MessageEmbed } from 'discord.js';
 import { SlashCommand } from '../types';
