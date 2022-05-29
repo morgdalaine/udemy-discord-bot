@@ -1,5 +1,6 @@
 import { HelpArray, SlashCommand } from '../types';
 import { AddCommand } from './add';
+import { AddRolesCommand } from './add-roles';
 import { GetRandomAnimeCommand } from './get-random-anime';
 import { GoogleCommand } from './google';
 import { HelloCommand } from './hello';
@@ -9,6 +10,7 @@ import { UserInfoCommand } from './user-info';
 
 const SlashCommands: SlashCommand[] = [
   AddCommand,
+  AddRolesCommand,
   GetRandomAnimeCommand,
   GoogleCommand,
   HelloCommand,
